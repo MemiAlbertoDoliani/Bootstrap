@@ -2,64 +2,70 @@
   margin: 0px;
   padding: 0px; }
 
-.index-texto h1 {
-  color: white;
-  font-size: large;
+/*font-family: 'Cormorant Garamond', serif;
+font-family: 'League Script', cursive;
+font-family: 'Roboto', sans-serif;*/
+h1 {
+  color: black;
+  font-size: 5rem;
   font-weight: lighter;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: white;
+  font-family: "Cormorant Garamond", serif;
+  background-color: transparent;
   width: 100%;
-  padding-top: 1rem;
   display: flex;
   justify-content: center; }
 
-.index-texto h2 {
-  color: #487a1f;
-  font-size: 40px;
-  font-weight: bolder;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-
-.index-texto h2 .index-texto-header-h2 {
-  margin: 10px 0px 0px 52px;
-  text-align: right;
-  display: flex;
-  justify-content: flex-start; }
-
-.index-texto h3 {
-  color: white;
-  font-size: 18px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: justify;
+#subtitle {
+  color: black;
+  font-size: 2rem;
   font-weight: lighter;
-  font-style: italic; }
-
-.index-texto h3 .index-texto-header-h3 {
-  margin-left: 52px;
-  display: flex;
-  justify-content: flex-start; }
-
-.index-texto h4 {
-  color: white;
-  font-size: 10px;
-  font-weight: lighter;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: white;
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  background-color: transparent;
   width: 100%;
-  padding-top: 0rem;
   display: flex;
   justify-content: center; }
 
-/*Style header*/
+h2 {
+  color: black;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: "Cormorant Garamond";
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+h3 {
+  color: black;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: "League Script";
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+h4 {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-family: "League Script";
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
 .header-barra_menu {
   background-color: #8293848b;
   position: sticky; }
 
-/*Fin Style header*/
 footer {
   display: flex;
   position: static;
   background-color: #8293848b;
   height: 90px;
+  width: auto;
   align-items: center;
   justify-content: center; }
   footer .social-media {
@@ -76,244 +82,212 @@ footer {
       footer .social-media .red-social:hover {
         transform: scale(1.1) translateY(-4px);
         transition: all 0.5s; }
+  footer .whatsapp {
+    position: fixed;
+    bottom: 3.6rem;
+    right: 1rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    z-index: 5; }
+    footer .whatsapp:hover {
+      transform: scale(1.5);
+      filter: invert(80%);
+      transition: all 1s; }
 
-.whatsapp {
-  position: fixed;
-  bottom: 100px;
-  right: 50px;
-  height: 50px;
-  width: 50px;
-  border-radius: 10%;
-  z-index: 5; }
-  .whatsapp:hover {
-    transform: scale(1.5);
-    filter: invert(100%);
-    transition: all 1s; }
-
-/* FIn style whatsapp */
-.index-texto h1 {
-  color: white;
-  font-size: large;
-  font-weight: lighter;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: white;
-  width: 100%;
-  padding-top: 1rem;
-  display: flex;
-  justify-content: center; }
-
-.index-texto h2 {
-  color: #487a1f;
-  font-size: 40px;
-  font-weight: bolder;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-
-.index-texto h2 .index-texto-header-h2 {
-  margin: 10px 0px 0px 52px;
-  text-align: right;
-  display: flex;
-  justify-content: flex-start; }
-
-.index-texto h3 {
-  color: white;
-  font-size: 18px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: justify;
-  font-weight: lighter;
-  font-style: italic; }
-
-.index-texto h3 .index-texto-header-h3 {
-  margin-left: 52px;
-  display: flex;
-  justify-content: flex-start; }
-
-.index-texto h4 {
-  color: white;
-  font-size: 10px;
-  font-weight: lighter;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: white;
-  width: 100%;
-  padding-top: 0rem;
-  display: flex;
-  justify-content: center; }
-
-/*Style header*/
-.header-barra_menu {
-  background-color: #8293848b;
-  position: sticky; }
-
-/*Fin Style header*/
-footer {
-  display: flex;
-  position: static;
-  background-color: #8293848b;
-  height: 90px;
-  align-items: center;
-  justify-content: center; }
-  footer .social-media {
-    margin-left: 10px;
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    align-items: center; }
-    footer .social-media .red-social {
-      margin-right: 10px;
-      height: 50px;
-      width: 50px;
-      border-radius: 10%; }
-      footer .social-media .red-social:hover {
-        transform: scale(1.1) translateY(-4px);
-        transition: all 0.5s; }
-
-.whatsapp {
-  position: fixed;
-  bottom: 100px;
-  right: 50px;
-  height: 50px;
-  width: 50px;
-  border-radius: 10%;
-  z-index: 5; }
-  .whatsapp:hover {
-    transform: scale(1.5);
-    filter: invert(100%);
-    transition: all 1s; }
-
-/* FIn style whatsapp */
-.galeria-principal {
+.index_main_galeria-principal {
   margin: 3%; }
 
-.index-galeria-secundaria {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 10px; }
-  .index-galeria-secundaria .index-galeria-secundaria .imagen-bebe {
-    height: 300px;
-    width: 300px;
-    margin-left: 50px; }
-    .index-galeria-secundaria .index-galeria-secundaria .imagen-bebe:hover {
-      transform: scale(2);
-      transition: all 3s; }
-  .index-galeria-secundaria .index-galeria-secundaria .mapa {
-    width: 500%; }
+.index_main_texto {
+  display: grid;
+  margin: 2rem;
+  padding: 1rem;
+  justify-content: center; }
 
-/*Estilos de la galeria*/
-.portfolio-galeria {
-  display: flex;
-  /*Estilos del modal*/ }
-  .portfolio-galeria .portfolio-galeria-imagenes_cuadradas {
-    width: 100%;
-    margin: 10px;
-    list-style: none;
-    padding: 10px;
-    box-sizing: content-box;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
-    .portfolio-galeria .portfolio-galeria-imagenes_cuadradas img {
-      margin: 0.75rem;
-      width: 15rem;
-      display: flex;
-      overflow: hidden; }
-  .portfolio-galeria .portfolio-galeria-imagenes_individuales {
-    margin: auto;
-    display: flex;
-    justify-content: center; }
-    .portfolio-galeria .portfolio-galeria-imagenes_individuales .imagenes_individuales {
-      display: none; }
-      .portfolio-galeria .portfolio-galeria-imagenes_individuales .imagenes_individuales:target {
-        display: block;
-        position: fixed;
-        background: rgba(0, 0, 0, 0.8);
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        overflow: scroll; }
-      .portfolio-galeria .portfolio-galeria-imagenes_individuales .imagenes_individuales .imagen {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        .portfolio-galeria .portfolio-galeria-imagenes_individuales .imagenes_individuales .imagen img {
-          display: block;
-          max-width: 100%;
-          padding: 4rem;
-          border: none; }
-  .portfolio-galeria .cerrar {
-    background: white;
+main {
+  display: block;
+  margin-top: 200px; }
+  main .portfolio-galeria {
     display: flex;
     justify-content: center;
-    width: 1rem;
-    height: 1rem; }
+    margin-top: 2rem; }
+    main .portfolio-galeria .portfolio-galeria-imagenes_cuadradas {
+      width: 100%;
+      margin: 10px;
+      list-style: none;
+      padding: 10px;
+      box-sizing: content-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      main .portfolio-galeria .portfolio-galeria-imagenes_cuadradas img {
+        margin: 0.75rem;
+        width: 15rem;
+        display: flex;
+        overflow: hidden; }
+    main .portfolio-galeria .portfolio-galeria-imagenes_individuales {
+      margin: auto;
+      display: flex;
+      justify-content: center; }
+      main .portfolio-galeria .portfolio-galeria-imagenes_individuales .imagenes_individuales {
+        display: none; }
+        main .portfolio-galeria .portfolio-galeria-imagenes_individuales .imagenes_individuales:target {
+          display: block;
+          position: fixed;
+          background: rgba(0, 0, 0, 0.8);
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          overflow: scroll; }
+        main .portfolio-galeria .portfolio-galeria-imagenes_individuales .imagenes_individuales .imagen {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          main .portfolio-galeria .portfolio-galeria-imagenes_individuales .imagenes_individuales .imagen img {
+            display: block;
+            max-width: 100%;
+            padding: 4rem;
+            border: none; }
+        main .portfolio-galeria .portfolio-galeria-imagenes_individuales .imagenes_individuales .cerrar {
+          background: white;
+          display: flex;
+          justify-content: center;
+          width: 1rem;
+          height: 1rem; }
 
-.producto-container {
-  display: flex;
-  justify-content: space-around; }
+.grid-container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-gap: 5px;
+  justify-items: center;
+  grid-template-areas: "area1"  "area2" "area3"  "area4"  "area5"  "area6"; }
+  @media screen and (min-width: 600px) {
+    .grid-container {
+      grid-template-areas: "area1 area2" "area3 area4"  "area5 area6"; } }
+  @media screen and (min-width: 768px) {
+    .grid-container {
+      grid-template-areas: "area1 area2 area3 " "area4 area5 area6"; } }
+  .grid-container .grid-item1 {
+    background: transparent;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    border: #8293848b 5px solid;
+    grid-area: area1;
+    width: 22rem;
+    height: 22rem;
+    margin: 1rem; }
+  .grid-container .grid-item2 {
+    background: transparent;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    border: #8293848b 5px solid;
+    grid-area: area2;
+    width: 22rem;
+    height: 22rem;
+    margin: 1rem; }
+  .grid-container .grid-item3 {
+    background: transparent;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    border: #8293848b 5px solid;
+    grid-area: area3;
+    width: 22rem;
+    height: 22rem;
+    margin: 1rem; }
+  .grid-container .grid-item4 {
+    background: transparent;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    border: #8293848b 5px solid;
+    grid-area: area4;
+    width: 22rem;
+    height: 22rem;
+    margin: 1rem; }
+  .grid-container .grid-item5 {
+    background: transparent;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    border: #8293848b 5px solid;
+    grid-area: area5;
+    width: 22rem;
+    height: 22rem;
+    margin: 1rem; }
+  .grid-container .grid-item6 {
+    background: transparent;
+    text-align: center;
+    padding: 20px;
+    align-content: center;
+    border: #8293848b 5px solid;
+    grid-area: area6;
+    width: 22rem;
+    height: 22rem;
+    margin: 1rem; }
 
-.producto {
-  border-style: groove;
-  border-color: rgba(200, 204, 186, 0.544);
-  width: 350px;
-  margin: 10px; }
+.about-grid-container {
+  display: grid;
+  margin: 5rem;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-gap: 5px;
+  justify-content: space-between;
+  overflow: auto;
+  grid-template-areas: "area1"  "area2"; }
+  @media screen and (min-width: 1200px) {
+    .about-grid-container {
+      grid-template-areas: "area1 area2"; } }
+  .about-grid-container .about-grid-container-item1 {
+    background: transparent;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    grid-area: area1;
+    width: auto;
+    height: 500px;
+    display: flex;
+    margin: 1rem; }
+  .about-grid-container .about-grid-container-item2 {
+    background: transparent;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+    padding: 4rem;
+    grid-area: area2; }
 
-.producto-pagina {
-  display: flex;
+.contact-grid-container {
+  display: grid;
+  margin: 5rem;
+  border: solid #8293848b 3px;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-gap: 5px;
   justify-content: center;
-  flex-direction: column;
-  padding-top: 100px; }
-
-.producto-titulo {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px; }
-
-.producto-detalles {
-  margin: 0px 10px;
-  text-align: justify;
-  display: flex;
-  align-items: center; }
-
-.producto-precio {
-  color: #212320;
-  margin: 10px 10px;
-  font-size: 18px;
-  font-style: italic;
-  font-weight: bold;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: justify;
-  display: flex;
-  align-items: center; }
-
-.about-container {
-  padding: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 100px; }
-
-.about-imagen {
-  width: 600px;
-  margin-right: 20px;
-  display: flex; }
-
-.about-descripcion {
-  width: 600px;
-  margin-left: 20px;
-  margin: 10px 10px;
-  font-size: 18px;
-  font-style: italic;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: justify;
-  display: flex;
-  align-items: center; }
-
-.formulario-parte-central {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 1150px;
-  width: 100%; }
-
-.formulario-container {
-  height: 400px;
-  width: 600px; }
+  overflow: auto;
+  grid-template-areas: "area1"  "area2"; }
+  @media screen and (min-width: 1200px) {
+    .contact-grid-container {
+      grid-template-areas: "area1 area2"; } }
+  .contact-grid-container .contact-grid-container-item1 {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+    padding: 4rem;
+    margin: 3rem;
+    grid-area: area1; }
+  .contact-grid-container .contact-grid-container-item2 {
+    background: transparent;
+    padding: 20px;
+    align-content: Left;
+    justify-content: left;
+    grid-area: area2;
+    display: flex;
+    height: 50rem; }

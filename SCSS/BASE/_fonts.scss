@@ -1,44 +1,64 @@
-.index-texto h1 {
-    color: white;
-    font-size: large;
-    font-weight: lighter;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: white;
-    width: 100%;
-    padding-top: 1rem;
-    display: flex;
-    justify-content: center; }
+
+$fontprincipal : 'Cormorant Garamond';
+$fontsecundaria : 'League Script';
+
+/*font-family: 'Cormorant Garamond', serif;
+font-family: 'League Script', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 5rem;
+  font-weight: lighter;
+  font-family: $fontprincipal, serif;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+}
+
+#subtitle {    
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: $fontprincipal;
+  font-style: italic;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: $fontprincipal;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: $fontsecundaria;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+}
   
-  .index-texto h2 {
-    color: #487a1f;
-    font-size: 40px;
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-    .index-texto h2 .index-texto-header-h2 {
-      margin: 10px 0px 0px 52px;
-      text-align: right;
-      display: flex;
-      justify-content: flex-start; }
-  
-  .index-texto h3 {
-    color: white;
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: justify;
-    font-weight: lighter;
-    font-style: italic; }
-    .index-texto h3 .index-texto-header-h3 {
-      margin-left: 52px;
-      display: flex;
-      justify-content: flex-start; }
-  
-  .index-texto h4 {
-    color: white;
-    font-size: 10px;
-    font-weight: lighter;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: white;
-    width: 100%;
-    padding-top: 0rem;
-    display: flex;
-    justify-content: center; }
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-family: $fontsecundaria;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+}

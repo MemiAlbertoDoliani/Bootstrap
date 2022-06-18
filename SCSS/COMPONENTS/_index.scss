@@ -1,28 +1,12 @@
 
-    @import "BASE/coleurs";
-    @import "BASE/fonts";
-    @import "BASE/header";
-    @import "BASE/footer";
+.index_main_galeria-principal{
+    margin: 3%; 
+  }
 
-  .galeria-principal {
-    margin: 3%; }
-  
-  .index-galeria-secundaria {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10px; 
-    .index-galeria-secundaria .imagen-bebe {
-      height: 300px;
-      width: 300px;
-      margin-left: 50px; 
-        &:hover {
-            transform: scale(2);
-            transition: all 3s; 
-        }
-    }
-
-    .index-galeria-secundaria .mapa {
-      width: 500%; }
-
-}
+  .index_main_texto {
+    display: grid;
+    margin: 2rem;
+    padding: 1rem;
+    justify-content: center;
+  }
 

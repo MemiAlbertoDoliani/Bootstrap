@@ -1,46 +1,101 @@
-.producto-container{
-    display: flex;
-    justify-content: space-around;
- }
-  
- .producto{
-    border-style:groove;
-    border-color:rgba(200, 204, 186, 0.544);
-    width: 350px;
-    margin: 10px;
- }
-  
- .producto-pagina{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 100px;
- }
-  
- .producto-titulo{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
- }
-  
- .producto-detalles{
-  
-    margin: 0px 10px;
-    text-align: justify;
-    display: flex;
-    align-items: center;
- }
-  
- .producto-precio{
-    color: rgb(33, 35, 32);
-    margin: 10px 10px;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: justify;
-    display: flex;
-    align-items: center;
- }
-  
 
+.grid-container {
+   display: grid;
+   grid-template-rows: auto;
+   grid-template-columns: auto;
+   grid-gap: 5px;
+   justify-items: center;
+   grid-template-areas:
+   "area1" 
+   "area2"
+   "area3" 
+   "area4" 
+   "area5" 
+   "area6";
+
+   @media screen and (min-width: 600px) {
+      grid-template-areas:
+      "area1 area2"
+      "area3 area4" 
+      "area5 area6";
+   }
+   @media screen and (min-width: 768px) {
+      grid-template-areas:
+      "area1 area2 area3 "
+      "area4 area5 area6";
+   }
+ 
+
+   .grid-item1 {
+      background: transparent;
+      text-align: center;
+      padding: 20px;
+      align-content: center;
+      border: $colorprincipal 5px solid;
+      grid-area: area1;
+      width: 22rem;
+      height: 22rem;
+      margin: 1rem;
+    }
+
+    .grid-item2 {      
+      background: transparent;
+      text-align: center;
+      padding: 20px;
+      align-content: center;
+      border: $colorprincipal 5px solid;
+      grid-area: area2;
+      width: 22rem;
+      height: 22rem;
+      margin: 1rem;
+    }
+
+    .grid-item3 {
+      background: transparent;
+      text-align: center;
+      padding: 20px;
+      align-content: center;
+      border: $colorprincipal 5px solid;
+      grid-area: area3;
+      width: 22rem;
+      height: 22rem;
+      margin: 1rem;
+    }
+
+    .grid-item4 {
+      background: transparent;
+      text-align: center;
+      padding: 20px;
+      align-content: center;
+      border: $colorprincipal 5px solid;
+      grid-area: area4;
+      width: 22rem;
+      height: 22rem;
+      margin: 1rem;
+    }
+    
+    .grid-item5 {
+      background: transparent;
+      text-align: center;
+      padding: 20px;
+      align-content: center;
+      border: $colorprincipal 5px solid;
+      grid-area: area5;
+      width: 22rem;
+      height: 22rem;
+      margin: 1rem;
+    }
+
+    .grid-item6 {
+      background: transparent;
+      text-align: center;
+      padding: 20px;
+      align-content: center;
+      border: $colorprincipal 5px solid;
+      grid-area: area6;
+      width: 22rem;
+      height: 22rem;
+      margin: 1rem;
+    }
+ 
+}
