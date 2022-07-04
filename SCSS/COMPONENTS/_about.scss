@@ -5,6 +5,7 @@
    grid-template-columns: auto;
    grid-gap: 5px;
    justify-content:space-between;
+   align-items: center;
    overflow: auto;
    grid-template-areas:
    "area1" 
@@ -22,16 +23,19 @@
       justify-content: center;
       grid-area: area1;
       width: auto;
-      height: 500px;
+      height: 600px;
       display: flex;
       margin: 1rem;
+      .about-imagen {
+      justify-content: space-between;
+      }
     }
 
     .about-grid-container-item2{      
       background: transparent;
       text-align: center;
       align-content: center;
-      justify-content: center;
+      justify-content: space-around;
       align-content: center;
       padding: 4rem;
       grid-area: area2;

@@ -23,7 +23,7 @@
     <title> SERVICES - Emilia Doliani Photographie</title>
   </head>
 
-  <body>
+<body>
 
   <header>
     <nav class="navbar navbar-expand-md bg-light fixed-top">
@@ -69,38 +69,67 @@
   <main>
 
     <h1> Contacto </h1>
+  
+    <p>
+      <h3 class="contact-parrafo"> Si queres reservar una sesion, conocer un poco mas sobre nuestras promociones o si tenes cualquier otra consulta ESCRIBINOS!</h3>
+    </p>
 
-      <section class="contact-grid-container">
+    <section class="contact-grid-container">
+  
+      <div class="contact-grid-container-item1">
+        <form class="formulario-parte-central" action="submeter-formulario.php" method="post">
+          <section class="formulario-container">
+            <p>
+									<label for="nombre" class="colocar_nombre">Nombre
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+						</p>
+							
+            <p>
+              <label for="email" class="colocar_email">Email
+                <span class="obligatorio">*</span>
+              </label>
+                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+            </p>
+						
+            <p>
+              <label for="telefone" class="colocar_telefono">Teléfono
+              </label>
+              <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+            </p>		
+								
+            <p>
+              <label for="asunto" class="colocar_asunto">Asunto
+                <span class="obligatorio">*</span>
+              </label>
+              <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+            </p>		
+							
+            <p>
+              <label for="mensaje" class="colocar_mensaje">Mensaje
+                <span class="obligatorio">*</span>
+              </label>                     
+              <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+            </p>
 
-        <div class="contact-grid-container-item1">
-          <form class="formulario-parte-central">
-            <section class="formulario-container">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Tu nombre</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Tu e-mail</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label"> Dejanos tu comentario </label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div> <button> Enviar </button>
-                </div>
-            </section>
-          </form>         
-        </div>
+            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
 
-        <div class="contact-grid-container-item2">
+            <p class="aviso">
+              <span class="obligatorio"> * </span>los campos son obligatorios.
+            </p>
+          
+          </section>
+        </form>         
+      </div>
+  
+       <div class="contact-grid-container-item2">
           <img class="contact-imagen" src="multimedia/galerie/img27.jpg" alt="Bébé endormi dans un panier decoré avec des fleures séches avec sur une coverture marron">  
         </div>
-
+  
     </section>   
-
+  
   </main>
-
 
   <footer>
 

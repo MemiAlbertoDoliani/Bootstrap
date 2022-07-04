@@ -1,6 +1,7 @@
 
 $fontprincipal : 'Cormorant Garamond';
 $fontsecundaria : 'League Script';
+$fontterciaria : 'Cormorant Garamond';
 
 /*font-family: 'Cormorant Garamond', serif;
 font-family: 'League Script', cursive;
@@ -32,9 +33,9 @@ h1 {
 
 h2 {
   color: rgb(0, 0, 0);
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: lighter;
-  font-family: $fontprincipal;
+  font-family: $fontsecundaria;
   background-color: transparent;
   width: 100%;
   display: flex;
@@ -45,7 +46,7 @@ h3 {
   color: rgb(0, 0, 0);
   font-size: 2rem;
   font-weight: lighter;
-  font-family: $fontsecundaria;
+  font-family: $fontterciaria;
   background-color: transparent;
   width: 100%;
   display: flex;
@@ -56,7 +57,7 @@ h4 {
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
   font-weight: lighter;
-  font-family: $fontsecundaria;
+  font-family: $fontterciaria;
   background-color: transparent;
   width: 100%;
   display: flex;

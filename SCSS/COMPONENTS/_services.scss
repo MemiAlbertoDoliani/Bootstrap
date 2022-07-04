@@ -1,10 +1,12 @@
 
 .grid-container {
    display: grid;
+   margin-bottom: 4rem;
    grid-template-rows: auto;
    grid-template-columns: auto;
    grid-gap: 5px;
    justify-items: center;
+   align-items: center;
    grid-template-areas:
    "area1" 
    "area2"
