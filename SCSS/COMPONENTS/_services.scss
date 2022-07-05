@@ -1,0 +1,103 @@
+
+.grid-container {
+   display: grid;
+   margin-bottom: 4rem;
+   grid-template-rows: auto;
+   grid-template-columns: auto;
+   grid-gap: 5px;
+   justify-items: center;
+   align-items: center;
+   grid-template-areas:
+   "area1" 
+   "area2"
+   "area3" 
+   "area4" 
+   "area5" 
+   "area6";
+
+   @media screen and (min-width: 600px) {
+      grid-template-areas:
+      "area1 area2"
+      "area3 area4" 
+      "area5 area6";
+   }
+   @media screen and (min-width: 768px) {
+      grid-template-areas:
+      "area1 area2 area3 "
+      "area4 area5 area6";
+   }
+ 
+
+   .grid-item1 {
+      background: transparent;
+      text-align: center;
+      padding: 20px;
+      align-content: center;
+      border: $colorprincipal 5px solid;
+      grid-area: area1;
+      width: 22rem;
+      height: 22rem;
+      margin: 1rem;
+    }
+
+    .grid-item2 {      
+      background: transparent;
+      text-align: center;
+      padding: 20px;
+      align-content: center;
+      border: $colorprincipal 5px solid;
+      grid-area: area2;
+      width: 22rem;
+      height: 22rem;
+      margin: 1rem;
+    }
+
+    .grid-item3 {
+      background: transparent;
+      text-align: center;
+      padding: 20px;
+      align-content: center;
+      border: $colorprincipal 5px solid;
+      grid-area: area3;
+      width: 22rem;
+      height: 22rem;
+      margin: 1rem;
+    }
+
+    .grid-item4 {
+      background: transparent;
+      text-align: center;
+      padding: 20px;
+      align-content: center;
+      border: $colorprincipal 5px solid;
+      grid-area: area4;
+      width: 22rem;
+      height: 22rem;
+      margin: 1rem;
+    }
+    
+    .grid-item5 {
+      background: transparent;
+      text-align: center;
+      padding: 20px;
+      align-content: center;
+      border: $colorprincipal 5px solid;
+      grid-area: area5;
+      width: 22rem;
+      height: 22rem;
+      margin: 1rem;
+    }
+
+    .grid-item6 {
+      background: transparent;
+      text-align: center;
+      padding: 20px;
+      align-content: center;
+      border: $colorprincipal 5px solid;
+      grid-area: area6;
+      width: 22rem;
+      height: 22rem;
+      margin: 1rem;
+    }
+ 
+}

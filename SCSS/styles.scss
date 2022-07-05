@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px; }
+
+    @import "BASE/coleurs";
+    @import "BASE/fonts";
+    @import "BASE/header";
+    @import "BASE/footer";
+    @import "COMPONENTS/index";
+    @import "COMPONENTS/portfolio";
+    @import "COMPONENTS/services";
+    @import "COMPONENTS/about";
+    @import "COMPONENTS/contact";

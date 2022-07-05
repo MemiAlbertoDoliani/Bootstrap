@@ -1,0 +1,121 @@
+h3.contact-parrafo {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
+  align-items: center;
+}
+.contact-grid-container {
+  display: grid;
+  margin: 3rem;
+  border: solid $colorprincipal 3px;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-gap: 5px;
+  justify-content:center;
+  align-items: center;
+  overflow: auto;
+  grid-template-areas:
+  "area1" 
+  "area2";
+
+  @media screen and (min-width: 1200px) {
+     grid-template-areas:
+     "area1 area2"
+  }
+
+  .contact-grid-container-item1{      
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 4rem;
+    margin: 3rem;
+    grid-area: area1;
+
+    input{
+    background-color: #fbfbfb; 
+    width: 400px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: $colorprincipal; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 400px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: $colorprincipal; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+    
+  #enviar {
+    height: 45px; 
+    padding: 5px;
+    margin : 20px; 	
+    text-transform: uppercase;
+    background-color: $colorprincipal; 
+    border-color: $colorprincipal; 
+    align-items: center;
+    border-style: solid; 
+    border-radius: 10px;	
+    width: 300px;   
+    cursor: pointer;
+    p{
+    color: #fff; 
+    justify-items: center;
+    align-items: center;
+    }
+  }
+    
+  span{
+    color: $colorprincipal; 
+  }
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+  }
+  }
+
+  .contact-grid-container-item2{
+     background: transparent;
+     padding: 20px;
+     align-content: center;
+     justify-content: space-evenly;
+     grid-area: area2;
+     display:flex;
+     height: 50rem;
+   }
+
+}
+
+
+

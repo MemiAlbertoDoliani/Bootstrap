@@ -1,0 +1,65 @@
+
+$fontprincipal : 'Cormorant Garamond';
+$fontsecundaria : 'League Script';
+$fontterciaria : 'Cormorant Garamond';
+
+/*font-family: 'Cormorant Garamond', serif;
+font-family: 'League Script', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 5rem;
+  font-weight: lighter;
+  font-family: $fontprincipal, serif;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+}
+
+#subtitle {    
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: $fontprincipal;
+  font-style: italic;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  font-weight: lighter;
+  font-family: $fontsecundaria;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: $fontterciaria;
+  background-color: transparent;
+  width: fit-content;
+  display: flex;
+  justify-content: space-evenly; 
+}
+  
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-family: $fontterciaria;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+}
